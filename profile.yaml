@@ -1,11 +1,13 @@
 project:
   project_name: "myprofile"
-  version: 1.5
+  version: 0.2
   is_public: true
   tags:
     -html
     -css
     -profile
+artifacts:
+  files:
+     **/*
 short_desc: >
     here is everything to know about my profile
-    
