@@ -1,4 +1,4 @@
- artifacts: 
+artifacts: 
   files: "**/*"
 project: 
   is_public: true
