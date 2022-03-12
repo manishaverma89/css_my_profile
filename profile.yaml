@@ -1,13 +1,9 @@
-project:
-  project_name: "myprofile"
-  version: 0.2
+--- 
+artifacts: 
+  files: "**/*"
+project: 
   is_public: true
-  tags:
-    -html
-    -css
-    -profile
-artifacts:
-  files:
-     **/*
-short_desc: >
-    here is everything to know about my profile
+  project_name: myprofile
+  tags: "-html -css -profile"
+  version: 0.2
+short_desc: "here is everything to know about my profile"
