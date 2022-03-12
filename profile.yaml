@@ -1,0 +1,11 @@
+project:
+  project_name: "myprofile"
+  version: 1.5
+  is_public: true
+  tags:
+    -html
+    -css
+    -profile
+short_desc: >
+    here is everything to know about my profile
+    
