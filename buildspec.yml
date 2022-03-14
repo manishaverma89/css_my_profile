@@ -13,3 +13,6 @@ phases:
     commands: "-echo Executing Pre Build Phase"
     finally: "-echo Executing Pre Build Finally"
 version: 0.2
+artifacts:
+  files:
+   -'**/*'
