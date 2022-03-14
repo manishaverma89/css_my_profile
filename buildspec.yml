@@ -2,26 +2,26 @@ version: 0.2
 
 phases:
  install:
-  commnads:
+  commands:
    -echo Executing Install Phase
    -echo Executing second part of Install Phase
   finally:
    -echo Executing Install Finally
  
  pre_build:
-  commnads:
+  commands:
    -echo Executing Pre Build Phase
   finally:
    -echo Executing Pre Build Finally
 
  build:
-  commnads:
+  commands:
    -echo Executing Build Phase
   finally:
    -echo Executing Build Finally
 
  post_build:
-  commnads:
+  commands:
    -echo Executing Post_Build Phase
   finally:
    -echo Executing Post_Build Finally
