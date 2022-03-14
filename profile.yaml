@@ -1,7 +1,7 @@
 --- 
-artifacts: 
-  files: "-index.html"
 project: 
+  artifacts: 
+    files: "-index.html"
   is_public: true
   myskills: "-coding -playing badminton -yoga & meditation"
   project_name: css_my_profile
