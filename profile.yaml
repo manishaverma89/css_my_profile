@@ -1,8 +1,9 @@
+--- 
 artifacts: 
-  files: "**/*"
+  files: "-\"**/*\""
 project: 
   is_public: true
-  project_name: myprofile
-  tags: "-html -css -profile"
-  version: 0.2
+  myskills: "-coding -playing badminton -yoga & meditation"
+  project_name: css_my_profile
+  version: 1.0
 short_desc: "here is everything to know about my profile"
