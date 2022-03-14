@@ -1,18 +1,14 @@
---- 
-phases: 
-  build: 
-    commands: "-echo Executing Build Phase"
-    finally: "-echo Executing Build Finally"
-  install: 
-    commands: "-echo Executing Install Phase -echo Executing second part of Install Phase"
-    finally: "-echo Executing Install Finally"
-  post_build: 
-    commands: "-echo Executing Post_Build Phase"
-    finally: "-echo Executing Post_Build Finally"
-  pre_build: 
-    commands: "-echo Executing Pre Build Phase"
-    finally: "-echo Executing Pre Build Finally"
 version: 0.2
+
+phases:
+  build:
+    commands:
+    - echo "This is build phase...zipping my webpage"
+
+  post_build:
+    commands:
+    - echo "Deployed to S3"
+
 artifacts:
   files:
-   -'**/*'
+    - '**/*'  
