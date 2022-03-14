@@ -1,6 +1,6 @@
 --- 
 artifacts: 
-  files: "-\"**/*\""
+  files: "-index.html"
 project: 
   is_public: true
   myskills: "-coding -playing badminton -yoga & meditation"
