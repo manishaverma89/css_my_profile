@@ -1,9 +1,27 @@
---- 
-project: 
-  artifacts: 
-    files: "-/index.html"
-  is_public: true
-  myskills: "-coding -playing badminton -yoga & meditation"
-  project_name: css_my_profile
-  short_desc: "here is everything to know about my profile"
-  version: 0.2
+version: 0.2
+
+phases:
+ install:
+  commnads:
+   -echo Executing Install Phase
+   -echo Executing second part of Install Phase
+  finally:
+   -echo Executing Install Finally
+ 
+ pre_build:
+  commnads:
+   -echo Executing Pre Build Phase
+  finally:
+   -echo Executing Pre Build Finally
+
+ build:
+  commnads:
+   -echo Executing Build Phase
+  finally:
+   -echo Executing Build Finally
+
+ post_build:
+  commnads:
+   -echo Executing Post_Build Phase
+  finally:
+   -echo Executing Post_Build Finally
